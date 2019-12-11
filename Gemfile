@@ -16,7 +16,6 @@ gem 'grape-swagger'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'factory_girl_rails', '~> 4.4.1'
 end
 
 group :development do
