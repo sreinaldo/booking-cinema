@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: book_cinema
+
+
+test:
+  <<: *default
+  database: book_cinema_test
+
+
+production:
+  <<: *default
+  database: book_cinema_test
+  username: book_cinema
+  password: <%= ENV['MINESWEEPER_DATABASE_PASSWORD'] %>
