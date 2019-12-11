@@ -15,7 +15,7 @@ require 'sequel'
 Bundler.require(*Rails.groups)
 
 module BookCinema
-  class Application < Rails::Application
+  class ApplicationApi < Rails::Application
     config.paths.add File.join('app', 'api'), glob: File.join('**', '*.rb')
     config.autoload_paths += Dir[Rails.root.join('app', 'api', '*')]
 
