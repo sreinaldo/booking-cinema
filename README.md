@@ -30,7 +30,7 @@ Booking Cinema
 4. API documentation
 
    ```
-   http://localhost:3000/api/swagger_doc
+   http://localhost:3000/
 
    ```
 

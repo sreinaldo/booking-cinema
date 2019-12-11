@@ -8,7 +8,7 @@ module V1
     add_swagger_documentation(
         api_version: "v1",
         hide_documentation_path: true,
-        mount_path: "/api/swagger_doc",
+        mount_path: "/",
         hide_format: true
     )
   end
