@@ -15,6 +15,4 @@ test:
 
 production:
   <<: *default
-  database: book_cinema_test
-  username: book_cinema
-  password: <%= ENV['MINESWEEPER_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
