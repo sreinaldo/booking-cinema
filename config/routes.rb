@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount BookCinema::ApplicationApi => '/'
+  mount ApplicationApi => '/'
 end

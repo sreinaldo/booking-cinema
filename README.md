@@ -34,6 +34,14 @@ Booking Cinema
 
    ```
 
+5. API endpoints
+
+   ```
+   http://localhost:3000/api/bookings
+   http://localhost:3000/api/movies
+
+   ```
+
 # Dependencies:
 * Ruby version: 2.5.1
 * Rails version: 5.2.4
